@@ -6,10 +6,14 @@
     "node": true
   },
   "rules": {
-"semi":"off",
+    "indent": "off",
+    "arrow-parens": "off",
+
+    "semi":"off",
     "accessor-pairs": "off",
     "comma-dangle": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "operator-linebreak": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
